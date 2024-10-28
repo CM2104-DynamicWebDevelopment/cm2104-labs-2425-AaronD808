@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h1 id="id1">My Heading 1</h1>
+
+    <button type="button" onclick="document.getElementById('id1').style.color = 'red';">Click Me!</button>
+
+    <button type="button" onclick="go()">Click Me Too!!</button>
+
+    <script>
+        function go() {
+            document.getElementById('id1').style.color = 'blue';
+        }
+    </script>
+
+    <script src="myscript.js"></script>
+
+    <button type="button" onclick="goAgain()">Click Me for Yellow!!</button>
+</body>
+</html>
