@@ -1,0 +1,23 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+header, section, article, nav, aside, footer, div {
+    font-family: sans-serif;
+    border: 1px dotted #000;
+    padding: 10px;
+    margin: 10px;
+}
+
+#siteHeader {
+    width: 93%;
+    display:inline-flex;
+    align-items: center;
+}
+
+#SiteNavigation ul {
+    width: 93%;
+    align-items: flex-start;
+    align-items: center;
+}
